@@ -9,7 +9,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String showHome(Model model) {
-        log.info("HomeController.homeV2");
+        log.info("HomeController.showHome");
 
         // 코드 추가 필요
 
