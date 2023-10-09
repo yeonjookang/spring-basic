@@ -1,5 +1,6 @@
 package kuit.springbasic.web.domain;
 
+import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
@@ -7,8 +8,7 @@ import lombok.ToString;
 import java.sql.Date;
 import java.time.LocalDate;
 
-@Getter
-@ToString
+@Data
 @EqualsAndHashCode
 public class Answer {
 

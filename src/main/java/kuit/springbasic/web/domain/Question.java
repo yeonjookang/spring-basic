@@ -1,12 +1,13 @@
 package kuit.springbasic.web.domain;
 
+import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.sql.Date;
 import java.time.LocalDate;
 
-@Getter
+@Data
 @EqualsAndHashCode(exclude = {"questionId"})
 public class Question {
 
